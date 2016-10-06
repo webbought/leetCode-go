@@ -10,6 +10,11 @@
 // convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 
 
+/**
+ * @param {string} s
+ * @param {number} numRows
+ * @return {string}
+ */
 func convert(s string, numRows int) string {
     if numRows == 1 {
         return s
